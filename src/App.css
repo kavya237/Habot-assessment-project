@@ -301,6 +301,13 @@ color:var(--black);
     flex: 1 1 100%;
     max-width: 100%;
   }
+  .menu {
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+  padding: 12px !important;
+  }
   .content h1 {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
@@ -331,6 +338,7 @@ color:var(--black);
   .banner-content {
     padding: 40px;
   }
+
   .Client-section {
     display: flex;
     align-items: center;
@@ -399,7 +407,13 @@ color:var(--black);
     width: 100%;
     padding: 20px;
   }
-
+  .menu {
+    display: flex;
+    justify-content: center;
+}
+/* .nav-link{
+padding: 12px !important;
+} */
   .banner-content h1,
   .banner-content h2 {
     font-size: 24px;
