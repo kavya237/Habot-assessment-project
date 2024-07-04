@@ -5,7 +5,7 @@ import MainComponent from './components/MainComponent';
 import SupplierSection from './components/Supplier/SupplierSection';
 import BuyerSection from './components/Buyer/BuyerSection';
 import WorkSection from './components/WorkSection/WorkSection';
-
+import Footer from './components/FooterSection/Footer';
 import  './App.css'
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
       <BuyerSection />
       <SupplierSection />
       <WorkSection />
-      
+      <Footer/> 
     </div>
   );
 };
