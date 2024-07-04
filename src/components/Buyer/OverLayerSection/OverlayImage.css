@@ -1,0 +1,40 @@
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-image {
+  position: absolute;
+  max-width: 12%; 
+  height: auto;
+}
+.post-image{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .post-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 50px 10px 8px;
+  }
+  .overlay-image {
+    position: absolute;
+    max-width: 12%;
+    height: auto;
+    top: 50%;
+    left: 44%;
+}
+
+}

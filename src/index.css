@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6D6E71;
+  --font-size: 16px;
+  --spacing: 8px;
+  --success: #00732F;
+  --white:#fff
+}
+
+body {
+  font-size: var(--font-size);
+}
